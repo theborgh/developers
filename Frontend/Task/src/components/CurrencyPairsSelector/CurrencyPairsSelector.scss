@@ -1,0 +1,16 @@
+.CurrencyPairsSelector {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.3rem 1rem;
+
+  background-color: lightblue;
+
+  &__logo {
+    font-size: 3rem;
+  }
+
+  &__searchbox {
+    font-size: 1.5rem;
+  }
+}

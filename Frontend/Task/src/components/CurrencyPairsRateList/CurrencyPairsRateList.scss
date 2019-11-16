@@ -1,0 +1,33 @@
+.CurrencyPairsRateList {
+  display: flex;
+  flex-direction: column;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0.3rem 1rem;
+
+    font-size: 1.3rem;
+    font-weight: 700;
+
+    background-color: lightgray;
+  }
+
+  .pairlist {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .pair {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: .3rem 1rem;
+      border: 1px solid gray;
+
+      font-size: 1.3rem;
+    }
+  }
+}
